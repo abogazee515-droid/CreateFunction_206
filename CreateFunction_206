@@ -1,0 +1,14 @@
+def temperature(temp, unit):
+    if unit == "C":
+        return temp * 9 / 5 + 32
+    else: 
+        return (temp - 32) * 5 / 9
+
+
+print(temperature(25, "C"))
+print(temperature(77, "F"))
+
+
+area = lambda r: 3.14 * r ** 2
+
+print(area(5))
